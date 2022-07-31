@@ -66,7 +66,7 @@ const SneakersIndex = (props) => {
 
     return (
         <div style={cardContainerStyle}>
-            {SneakerCards}
+            {sneakerCards}
         </div>
     )
 }
