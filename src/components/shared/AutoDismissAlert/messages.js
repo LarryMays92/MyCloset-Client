@@ -6,6 +6,13 @@ const messages = {
 	signOutSuccess: 'Come back soon!',
 	changePasswordSuccess: 'Password changed successfully!',
 	changePasswordFailure:'Failed to change passwords. Check your old password and try again.',
+	getShoeFailure: 'Error fetching shoes.',
+	createShoeSuccess: 'Sneakers created Successfully!',
+	createShoeFailure: 'Something went wrong, please try again.',
+	updateShoeSuccess: 'Sneaker updated Successfully!',
+	updateShoeFailure: 'Couldnt update sneaker, please try again.',
+	removeShoeSuccess: 'Sneaker has been set removed!',
+	removeShoeFailure: 'Couldnt remove sneaker, please try again.'
 }
 
 module.exports = messages
