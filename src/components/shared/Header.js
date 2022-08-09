@@ -8,6 +8,11 @@ const linkStyle = {
 }
 const authenticatedOptions = (
 	<>
+	<Nav.Item className="m-2">
+			<Link to="/addSneaker" style={ linkStyle }>
+				Add Sneakers
+			</Link>
+		</Nav.Item>
 		<Nav.Item>
 			<Link to='change-password' style={linkStyle}>
 				Change Password
@@ -44,9 +49,9 @@ const alwaysOptions = (
 
 const Header = ({ user }) => (
 	<Navbar bg='primary' variant='dark' expand='md'>
-		<Navbar.Brand>
+		<Navbar.Brand className ='m-2'>
             <Link to='/' style={linkStyle}>
-                react-auth-template
+                My Closet
             </Link>
         </Navbar.Brand>
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />
